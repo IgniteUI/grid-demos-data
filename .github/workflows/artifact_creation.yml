@@ -17,7 +17,7 @@ jobs:
 
       # Step 2: Upload all files from the repository as an artifact
       - name: Upload all files as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: IgniteUI_grid-demos-data  # Name of the artifact
           path: |
