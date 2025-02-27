@@ -22,4 +22,4 @@ jobs:
           name: IgniteUI_grid-demos-data  # Name of the artifact
           path: |
             **/*       # Upload all files and directories recursively
-          retention-days: 2  # Optional: Set how long the artifact should be retained
+          retention-days: 2  # How long the artifact should be retained
